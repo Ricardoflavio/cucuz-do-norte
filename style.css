@@ -1,0 +1,135 @@
+body {
+    color: black;
+    background: linear-gradient(299deg,  #f26208c8 40%,  #b63a3aec 65%) no-repeat ;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+
+    height: 200px;
+    padding: 20px ;
+}
+
+.logo img{
+
+    width: 120px;
+}
+.menu {
+
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+.extras{
+    
+    position: absolute;
+    bottom:-330px;
+    right: -400px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #dcf80398;
+    
+
+}
+.social-media {
+   
+    margin-right: 50px;
+    top: 150px;
+    flex-direction: column;
+    position: fixed;
+    right: 80px;
+    width: 80px;
+
+}
+.social-media img{
+
+    width: 40px;
+    margin: 40px ;
+    
+}
+
+.texto-sobre h1{
+
+    text-decoration-line: none;
+    font-size: 40px;
+    
+}
+section img {
+
+    width: 300px;
+    border-radius: 06%;
+}
+.texto-sobre p {
+    
+    margin: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+.texto-sobre button {
+
+    border: 02;
+    background-color: #150307a6;
+    border-radius: 6px;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+ 
+}
+.menu-peca-ja{
+    
+    margin: 30px;
+    padding: 0px;
+    
+}
+.menu-peca-ja h2{
+
+    transition: .02s;
+    display: inline-block;
+    color: rgba(10, 1, 1, 0.958);
+   
+
+}
+.menu-peca-ja:hover {
+
+    background-color: #00ff0088;
+     position: fixed;
+    background-size: cover;
+    background-position: 100%;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+

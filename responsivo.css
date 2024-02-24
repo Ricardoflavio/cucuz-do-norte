@@ -1,0 +1,177 @@
+@media (max-width: 1024px) {
+
+
+    .menu-principal {
+        padding-top: 100px;
+        max-width: 52%;
+        text-align: center;
+
+    }
+
+    .links-menu {
+        gap: 10px;
+        margin: 350px;
+        text-align: center;
+        display: grid;
+
+    }
+
+    .links-menu a {
+        max-width: 70%;
+
+    }
+
+    .icon {
+        max-width: 70%;
+
+    }
+
+    .nborder img {
+        max-width: 80%;
+
+    }
+
+
+    .container {
+        padding-left: 100px;
+        margin-left: 10px;
+
+
+    }
+
+    .social-media {
+        right: 60px;
+        max-width: 50%;
+
+    }
+
+    .social-media img {
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+}
+
+/* RESOLUÇÇÃO TABLET*/
+
+
+@media (max-width: 823px) {
+
+
+    .menu-principal {
+        max-width: 52%;
+        text-align: center;
+
+    }
+
+    .links-menu {
+        gap: 10px;
+        margin: 250px;
+        text-align: center;
+        display: grid;
+
+    }
+
+    .links-menu a {
+    font-size: medium;
+
+
+    }
+
+    .icon {
+        max-width: 50%;
+
+    }
+
+    .nborder img {
+        max-width: 80%;
+
+    }
+
+    .container {
+        padding-left: 100px;
+        margin-left: -80px;
+
+
+    }
+
+    .social-media {
+        right: 30px;
+        max-width: 50%;
+
+    }
+
+    .social-media img {
+        height: 60%;
+
+    }
+
+    .botao {
+        max-width: 50px;
+        padding: 30px;
+    }
+
+}
+
+/*  Responsivo para Nexus 7 e outros dispositivos */
+
+@media(max-width: 600px) {
+
+
+    .menu {
+        max-width: 80%;
+
+    }
+
+    .links-menu {
+        gap: 10px;
+        margin: 250px;
+
+    }
+
+    .links-menu a {
+        max-width: 100%;
+
+    }
+
+    .icon {
+        max-width: 40%;
+
+    }
+
+    .card-nborder {
+        max-width: 100%;
+
+    }
+
+    .container {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-left: 70px;
+
+    }
+
+    .card-deck {
+        margin-left: -50px;
+
+    }
+
+    .social-media {
+        max-width: 50%;
+
+    }
+
+    .social-media img {
+        height: 80%;
+
+    }
+
+    .botao {
+        max-width: 50px;
+        padding: 30px;
+    }
+
+
+}

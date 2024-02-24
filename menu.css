@@ -1,0 +1,94 @@
+body {
+    color: black;
+    background: linear-gradient(-233deg, #89f208e1 40%, hsla(13, 85%, 53%, 0.904) 65%) no-repeat;
+ overflow-x: hidden;
+}
+
+
+.menu principal {
+    width: 20px;
+    margin-right: 20px;
+
+}
+
+.links-menu {
+   font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    padding: 16px;
+
+
+
+}
+
+.links-menu a {
+    text-decoration-line: none;
+    color: black;
+
+
+}
+
+.icon {
+   
+    width: 129px;
+    position: fixed;
+}
+
+.card-nborder {
+    margin: 9px;
+    width: 330px;
+    border-radius: 6px;
+    padding-top: 15px;
+    background: linear-gradient(145deg, #96f803f6, #dc143c);
+    box-shadow: 20px 20px 18px
+}
+
+.card-nborder img {
+
+    width: 260px;
+    height: 188px;
+
+}
+
+.container {
+    margin-left: 100px;
+    display: flex;
+    max-width: 100%;
+    padding-left: 150px;
+
+
+
+}
+
+.social-media {
+    display: flex;
+    padding-top: 100px;
+    top: 120px;
+    flex-direction: column;
+    position: fixed;
+    right: 60px;
+    width: 60px;
+
+}
+
+.social-media img {
+    display: block;
+    width: 30px;
+    margin: 20px;
+
+}
+
+.btn {
+    background-color: #015301;
+}
+
+.rodape {
+
+
+    top: 600px;
+    position: fixed;
+    right: 18px;
+
+
+}
